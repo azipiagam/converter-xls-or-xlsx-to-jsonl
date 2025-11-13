@@ -1,0 +1,25 @@
+{
+  "name": "converter-xls-or-xlsx-to-jsonl",
+  "version": "1.0.0",
+  "description": "Simple XLS to JSON Lines converter tool",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node converter.js",
+    "convert": "node converter.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [
+    "xls",
+    "jsonl",
+    "json-lines",
+    "converter",
+    "excel"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bin": {
+    "xls2jsonl": "./converter.js"
+  }
+}
